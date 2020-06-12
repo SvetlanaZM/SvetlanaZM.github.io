@@ -1,0 +1,303 @@
+$white_text: #ffffff
+$orange_lb: #ff8f27
+
+@mixin icon-value
+    color: #aeaeae
+    font-size: 14px
+    font-weight: 400
+
+@mixin more_info
+    display: flex
+    align-items: center
+    transition: 0.3s all
+    text-decoration: none
+    color: $white_text
+    font-size: 16px
+    font-weight: 400
+    &:hover
+        color: #aeaeae
+
+@mixin more_info_ba
+    content: ''
+    min-width: 31px
+    min-height: 31px
+    border-radius: 50%
+    background: url(../icons/play.svg) center center no-repeat
+    background-color: #ffffff
+    background-size: 100%
+    transition: 0.3s all
+@mixin content_titles
+    font-size: 16px
+    font-weight: 900
+
+@mixin content_btn
+    background-color: $orange_lb
+    border: none
+    outline: none
+    cursor: pointer
+    transition: 0.3s all
+    &:hover
+        background: #f38117
+
+*
+    box-sizing: border-box
+    margin: 0
+    padding: 0
+
+html
+    font-family: 'Roboto', sans-serif
+    
+body
+    
+    background: url(../img/main-bg.jpg) top center no-repeat
+    background-color: #0a090a
+    background-size: 100%
+    
+    
+    // background-size: cover
+
+.container
+    margin: 0 auto
+    max-width: 1140px
+
+.header
+    &_wrapper
+        padding-top: 51px
+        display: flex
+        align-items: center
+        justify-content: space-between
+    &_logo
+        color: $white_text
+        font-size: 24px
+        font-weight: 900
+    .search
+        display: flex
+        flex: 0.8
+        align-items: center
+        &_input
+            flex: 1
+            height: 40px
+            background-color: rgba(196, 196, 196, 0.5)
+            border: none
+            border-radius: 7px
+            outline: none
+            padding: 12px 0 12px 18px
+            @include icon-value
+            &::placeholder
+                @include icon-value
+
+        &_button
+            margin-left: 18px
+            width: 25px
+            height: 25px
+            outline: none
+            border: none
+            cursor: pointer
+            background: transparent
+            transition: 0.5s all
+            &:hover
+                filter: brightness(2)
+            span
+                font-size: 20px
+                display: block
+                margin: 0 auto
+            
+    &_user
+        display: flex
+        align-items: center
+        .avatar
+            margin-left: 20px
+            border-radius: 50%
+            height: 40px
+            width: 40px
+            object-fit: cover
+        span
+            font-size: 20px
+            transition: 0.5s all
+            cursor: pointer
+            &:hover
+                filter: brightness(2)
+
+.main
+    margin-top: 29%
+    &_title
+        font-family: 'Playfair Display', serif
+        color: $white_text
+        font-size: 48px
+        font-weight: 700
+        margin: 0
+       
+    &_subtitle
+        color: #787878
+        font-size: 20px
+        font-weight: 400
+        margin-top: 7px
+        
+    .info
+        margin-top: 43px
+        display: flex
+        align-items: center
+        justify-content: space-between
+        &_movie
+            display: flex
+            align-items: center
+            .movie
+                border-radius: 3px
+                background-color: #ffffff
+                color: #333333
+                font-size: 16px
+                font-weight: 400
+                padding: 5px 10px
+                margin-right: 20px
+            .country
+                color: $white_text
+                font-size: 16px
+                font-weight: 400
+                margin-right: 32px
+            .play
+                @include more_info
+                &::before
+                    @include more_info_ba
+                    margin-right: 15px
+                &:hover
+                    &::before
+                        background-color: #dddddd
+                        
+        .more
+            @include more_info               
+            &::after 
+                @include more_info_ba
+                margin-left: 15px
+                transform: rotate(90deg)
+            &:hover
+                &::after
+                    background-color: #dddddd
+
+    .content
+        background: #FFFFFF
+        border-radius: 3px
+        margin-top: 110px
+        color: #000000
+        padding: 3% 4% 7% 4%
+        display: flex
+        justify-content: space-between
+
+        &_short_info
+            margin-right: 3%
+            .poster
+                display: block
+                margin-top: -40%
+            .watch_btn
+                @include content_btn
+                margin-top: 20px
+                padding: 10px 44px
+                color: $white_text
+                font-size: 14px
+                font-weight: 400
+            .actors
+                @include content_titles
+                padding-left: 15px
+                margin-top: 30px
+                &_list
+                    padding-left: 15px
+                    margin-top: 10px
+                    list-style-type: none
+                    font-size: 16px
+                    font-weight: 400
+                    &_item
+                        line-height: 140%
+                        a   
+                            text-decoration: none
+                            color: #000000
+                            &:hover
+                                text-decoration: underline
+        &_full_info
+            flex: 0.97
+            .menu
+                display: flex
+                align-items: center
+                &_item
+                    text-decoration: none
+                    transition: 0.3s all
+                    color: #000000
+                    font-size: 18px
+                    font-weight: 400
+                    margin-right: 4%
+                    &:hover
+                        color: $orange_lb
+                    &:nth-child(7)
+                        margin-right: 7%    
+                .clicked
+                        color: #fd8515
+                .bookmark
+                    transition: 0.5s all
+                    color: #aeaeae
+                    cursor: pointer
+                    &:hover
+                        color: $orange_lb
+            .info_wrapper
+                display: flex
+                justify-content: space-between
+                margin-top: 5%
+                .main_info
+                    display: none
+                    margin-right: 5%
+                    .actors_wrapper
+                        display: flex
+                        flex-wrap: wrap
+                        justify-content: space-between
+                        &_item
+                            margin-bottom: 23px
+                            .name
+                                margin-top: 10px
+                                text-align: center
+                                font-size: 16px
+                                font-weight: 900
+                            .hero
+                                margin-top: 4px
+                                text-align: center
+                                font-size: 16px
+                                font-weight: 400
+                    .text
+                        flex-basis: 100%
+                        font-size: 16px
+                        font-weight: 400
+                        line-height: 140%
+                        &_title
+                            margin-top: 30px
+                            margin-bottom: 22px
+                            @include content_titles
+                    .bold
+                        font-weight: 700
+                        font-size: 16px
+                        padding-right: 15px
+
+
+                .visible
+                    display: block
+                .subscribe
+                    &_title
+                        @include content_titles
+                    &_form
+                        display: flex
+                        margin: 13px 0 48px 0
+                        &_input
+                            background-color: rgba(241, 241, 241, 0.5)
+                            padding: 12px 0 12px 16px
+                            border: none
+                            border-top-left-radius: 5px
+                            border-bottom-left-radius: 5px
+                            color: #9b9b9b
+                            font-size: 14px
+                            font-weight: 400 
+                            outline: none
+                        &_btn
+                            @include content_btn
+                            border-top-right-radius: 5px
+                            border-bottom-right-radius: 5px
+                            padding: 13px 12px
+.border
+    height: 64px
+
+
+@import "_media.sass"
