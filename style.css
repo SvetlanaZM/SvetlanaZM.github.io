@@ -10,7 +10,6 @@ html, body {
   background-size: cover;
 }
 
-/* MAIN VARIABLES FOR CUSTOMIZATION */
 .nav {
   overflow: hidden;
   position: absolute;
@@ -63,7 +62,7 @@ a {
 }
 
 a:hover {
-    color: #F44F04; /* Новый цвет текста */
+    color: #F44F04;
    }
 
 .nav__item {
