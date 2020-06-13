@@ -1,7 +1,7 @@
 body{ 
 	font-family:arial;
 	padding:20px; 
-	background: url(img/bg.jpg) no-repeat;
+	background: url(img/bg.jpg);
 	height: 100vh;
 	text-align: center;
 	color: #fff;
@@ -22,6 +22,7 @@ body{
 	padding:50px 20px;     
 	font-size: 20px;
     	vertical-align: middle; 
+	height: 40vh;
 	background: #b5ced8;
 	/* для красоты */
 }
