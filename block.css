@@ -17,7 +17,7 @@ body {
     content: "";
     display: block;
     height: 50%;
-    background: url(img/bg.jpg);
+    background: $lightBlue;
   }
 
   &:after {
