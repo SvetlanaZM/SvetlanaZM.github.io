@@ -9,7 +9,6 @@ body{
 .flex{
 	display: flex;
 	flex-wrap: wrap;
-
 	max-width: 50%; /* макс ширина */
 	margin: 0 auto; /* выровняем по центру */
 }
@@ -19,10 +18,10 @@ body{
 	margin:5px;
 	box-sizing:border-box; /* чтобы внутренний отступ не влиял когда там будет текст... */
 	min-width:170px; /* мин. ширина блока, чтобы переносились на другой ряд */
-
 	padding:50px 20px;     
-	font-size: 200%;
+	font-size: 20px;
     	text-align: center;
     	vertical-align: middle; 
+	color: #fff;
 	background: url(img/flexbg.jpg) no-repeat; /* для красоты */
 }
