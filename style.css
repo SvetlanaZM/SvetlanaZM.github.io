@@ -9,15 +9,7 @@ html, body {
   background: url(bg.jpg) no-repeat;
   background-size: cover;
 }
-
-
-
-
-
-
-
 /* MAIN VARIABLES FOR CUSTOMIZATION */
-/* -------------------------------- */
 .nav {
   overflow: hidden;
   position: absolute;
