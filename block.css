@@ -12,7 +12,9 @@ body{
 	flex-wrap: wrap;
 	max-width: 50%; /* макс ширина */
 	margin: 0 auto;
-	align-items: center; /* выровняем по центру */
+	align-items: center;
+	width: 200px;
+  	height: 200px;/* выровняем по центру */
 }
 
 .item{
@@ -24,8 +26,7 @@ body{
 	font-size: 20px;
     	vertical-align: middle; 
 	height: 40vh;
-	background: #b5ced8;
-	opacity: 0.5;
+	background-color: rgba(181, 206, 216, 0.5);
 	align-items: center;
   	justify-content: center;
 	/* для красоты */
