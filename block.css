@@ -26,7 +26,6 @@ body{
 	align-items: center;
         justify-content: center;
         flex-direction: column;
-	background-color: rgba(181, 206, 216, 0.5);
 }
 a.button {
   position: relative;
