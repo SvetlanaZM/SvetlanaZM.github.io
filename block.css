@@ -26,5 +26,7 @@ body{
 	height: 40vh;
 	background: #b5ced8;
 	opacity: 0.5;
+	align-items: center;
+  	justify-content: center;
 	/* для красоты */
 }
