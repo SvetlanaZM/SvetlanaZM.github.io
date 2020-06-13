@@ -20,7 +20,6 @@ body{
 	display: inline-block; /*центрируем элемент*/
 	flex:1 1 calc(33.33% - 30px); /* отнимем margin и скажем растягиваться */
 	min-width:150px; /* мин. ширина блока, чтобы переносились на другой ряд */
-	padding:50px 20px; 
 	align-items: center;
         justify-content: center;
         flex-direction: column;
@@ -28,7 +27,7 @@ body{
 a.button {
   position: relative;
   display: inline-block;
-  font-size: 90%;
+  font-size: 100%;
   font-weight: 700;
   color: rgb(209,209,217);
   text-decoration: none;
