@@ -4,7 +4,8 @@
   padding: 0;
 }
 
-height: 100vh;
+html, body {
+  height: 100vh;
   background: url(bg.jpg) no-repeat;
   background-size: cover;
 }
@@ -33,7 +34,7 @@ body:after {
   background: rgba(255, 255, 255, 0.7);
   border-radius: 50px;
   transform: translate3d(-50%, 0, 0);
-  box-shadow: 0 10px 35px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 10px 35px rgba(0, 0, 0, 1);
 }
 
 .nav__cb {
