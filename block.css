@@ -15,7 +15,7 @@ body{
 	align-items: center;
 	text-align: center;
 	width: 200px;
-  	height: 200px;/* выровняем по центру */
+  	height: 50px;/* выровняем по центру */
 }
 
 .item{
@@ -29,6 +29,5 @@ body{
 	font-size: 20px;
     	vertical-align: middle; 
 	align-items: center;
-	height: 50px;
 	background-color: rgba(181, 206, 216, 0.5); /* для красоты */
 }
