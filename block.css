@@ -17,7 +17,7 @@ body {
     content: "";
     display: block;
     height: 50%;
-    background: url(img/bg.jpg);
+    background: $lightBlue;
   }
 
   &:after {
@@ -31,7 +31,9 @@ $navAT: 1s;
 $textDelayStep: 0.1s;
 
 
+
 /* -------------------------------- */
+
 $font: Helvetica, Arial, sans-serif;
 
 $btnSize: 90px;
@@ -185,4 +187,3 @@ $textCub: cubic-bezier(.48,.43,.7,2.5);
     }
   }
 }
-	
