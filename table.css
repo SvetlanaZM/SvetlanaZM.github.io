@@ -6,7 +6,8 @@ body {
 	background-size: cover;
 }
 div {
-	box-sizing: border-box;
+	
+	height: 100vh;
 }
 h1 {
 	text-align: center;
