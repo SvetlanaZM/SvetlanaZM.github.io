@@ -2,40 +2,17 @@ body{ font-family:arial; padding:20px; }
 
 .flex{
 	display: flex;
-	max-width: 500px; /* макс ширина блока */
-	margin: 0 auto; /* выравниваем блок по центру */
-	font-size:100%;
-}
+	flex-wrap: wrap;
 
-.sideitem{
-	/* flex:0 0 150px; */
-	flex-basis:150px; /* ширина 150 */
-	flex-shrink:0; /* Убираем уменьшение = 150 */				   
-	display: flex;
-	flex-direction: column;
+	max-width: 700px; /* макс ширина */
+	margin: 0 auto; /* выровняем по центру */
 }
 
 .item{
-	flex-basis:50%;
-	min-height:150px;
-	margin-left:10px;
-	justify-content: center; align-items: center; /* цифры по центру */
-}
-.item:first-child{ margin-bottom:10px; }
+	flex:1 1 calc(33.33% - 30px); /* отнимем margin и скажем растягиваться */
+	margin:5px;
+	box-sizing:border-box; /* чтобы внутренний отступ не влиял когда там будет текст... */
+	min-width:170px; /* мин. ширина блока, чтобы переносились на другой ряд */
 
-/* меньше 600px */
-@media screen and (max-width: 600px) {
-	.flex{ flex-wrap: wrap; } /* для переноса */
-	
-	.sideitem{ flex-direction:row; flex-basis:100%; }
-	
-	.item{ margin-left:0; margin-top:10px; }
-	.item:first-child{ margin-bottom:0; margin-right:10px; }
-}
-
-/* меньше 450px */
-@media screen and (max-width: 450px) {
-	.sideitem{ flex-wrap: wrap; } /* разрешаем перенос */
-	.item{ flex-basis:100%; } /* на всю ширину */
-	.item:first-child{ margin-right:0; }
+	padding:50px 20px; font-size:400%; text-align:center; background:#b5ced8; /* для красоты */
 }
