@@ -3,6 +3,7 @@ body{
 	padding:20px; 
 	background: url(img/bg.jpg) no-repeat;
 	background-size: cover;
+	text-align: center;
 	color: #fff;
 }
 
@@ -20,9 +21,7 @@ body{
 	min-width:170px; /* мин. ширина блока, чтобы переносились на другой ряд */
 	padding:50px 20px;     
 	font-size: 20px;
-    	text-align: center;
     	vertical-align: middle; 
-	color: #fff;
 	background: url(img/flexbg.jpg) no-repeat;
 	background-size: cover;/* для красоты */
 }
