@@ -1,7 +1,7 @@
 body{ 
 	font-family:arial;
 	padding:20px; 
-	background: (img/bg.jpg);
+	background: url ("img/bg.jpg");
 	background-size: cover;
 }
 
@@ -19,5 +19,5 @@ body{
 	box-sizing:border-box; /* чтобы внутренний отступ не влиял когда там будет текст... */
 	min-width:170px; /* мин. ширина блока, чтобы переносились на другой ряд */
 
-	padding:50px 20px; font-size:400%; text-align:center; background:(img/flexbg.jpg); /* для красоты */
+	padding:50px 20px; font-size:400%; text-align:center; background: url("img/flexbg.jpg"); /* для красоты */
 }
