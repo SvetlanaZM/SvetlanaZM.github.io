@@ -1,8 +1,8 @@
-body{ 
+gbody{ 
 	font-family:arial;
 	padding:20px; 
 	background: url(img/bg.jpg) no-repeat;
-	background-size: cover;
+	height: 100vh;
 	text-align: center;
 	color: #fff;
 }
@@ -22,6 +22,6 @@ body{
 	padding:50px 20px;     
 	font-size: 20px;
     	vertical-align: middle; 
-	background:#b5ced8;
+	background: #b5ced8;
 	/* для красоты */
 }
