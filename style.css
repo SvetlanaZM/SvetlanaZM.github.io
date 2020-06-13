@@ -65,6 +65,14 @@ html, body {
   text-align: justify;
 }
 
+a {
+  text-decoration: none;
+}
+
+a:hover {
+    color: #F44F04; /* Новый цвет текста */
+   }
+
 .nav__item {
   display: table-cell;
   vertical-align: top;
@@ -80,7 +88,7 @@ html, body {
 }
 
 .nav__item:hover {
-  color: #1539CF;
+  color: #3a5661;
 }
 
 .nav__item-text {
@@ -149,7 +157,7 @@ html, body {
   width: 28px;
   height: 4px;
   border-radius: 2px;
-  background: #096DD3;
+  background: #016B43;
   transform-origin: 50% 50%;
   transition: transform 1s cubic-bezier(0.48, 0.43, 0.29, 1.3), background-color 0.3s;
 }
@@ -159,7 +167,7 @@ html, body {
 }
 
 .nav__btn:hover:before, .nav__btn:hover:after {
-  background: #1539CF;
+  background: #F44F04;
 }
 
 .nav__cb:checked ~ .nav__btn:before {
