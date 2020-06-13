@@ -1,10 +1,14 @@
-body{ font-family:arial; padding:20px; }
+body{ 
+	font-family:arial; padding:20px; 
+	background: (img/bg.jpg);
+	background-size: cover;
+}
 
 .flex{
 	display: flex;
 	flex-wrap: wrap;
 
-	max-width: 700px; /* макс ширина */
+	max-width: 400px; /* макс ширина */
 	margin: 0 auto; /* выровняем по центру */
 }
 
@@ -14,5 +18,5 @@ body{ font-family:arial; padding:20px; }
 	box-sizing:border-box; /* чтобы внутренний отступ не влиял когда там будет текст... */
 	min-width:170px; /* мин. ширина блока, чтобы переносились на другой ряд */
 
-	padding:50px 20px; font-size:400%; text-align:center; background:#b5ced8; /* для красоты */
+	padding:50px 20px; font-size:100%; text-align:center;/* для красоты */
 }
