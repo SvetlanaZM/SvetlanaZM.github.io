@@ -23,5 +23,6 @@ body{
     	text-align: center;
     	vertical-align: middle; 
 	color: #fff;
-	background: url(img/flexbg.jpg) no-repeat; /* для красоты */
+	background: url(img/flexbg.jpg) no-repeat;
+	background-size: cover;/* для красоты */
 }
