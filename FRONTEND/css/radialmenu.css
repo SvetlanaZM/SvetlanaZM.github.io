@@ -4,11 +4,8 @@
   padding: 0;
 }
 
-html, body {
-  overflow: hidden;
-}
-
 body {
+  overflow: hidden;
   height: 100vh;
   background: url(img/bg.jpg) no-repeat;
   background-size: cover;
