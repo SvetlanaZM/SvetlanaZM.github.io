@@ -211,8 +211,10 @@ html, body {
           transform: translateY(-15em) rotate(-292.5deg);
 }
 
-input #but {
- background: url("/img/TOKYO.png");
- width: 100px;
- height: 100px;
+.fa1 {
+  background: url('/img/TOKYO.png') no-repeat; 
+}
+
+a {
+  text-decoration: none;
 }
