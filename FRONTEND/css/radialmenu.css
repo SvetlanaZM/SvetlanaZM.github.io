@@ -212,7 +212,7 @@ html, body {
 }
 
 input#but {
- background: url("img/TOKYO.png");
+ background: url("/img/TOKYO.png");
  width: 100px;
  height: 100px;
 }
