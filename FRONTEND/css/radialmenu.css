@@ -211,8 +211,8 @@ html, body {
           transform: translateY(-15em) rotate(-292.5deg);
 }
 
-input#button {
- background: url("/img/TOKYO.png");
+input#but {
+ background: url("img/TOKYO.png");
  width: 100px;
  height: 100px;
 }
