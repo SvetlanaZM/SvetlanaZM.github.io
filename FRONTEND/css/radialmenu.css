@@ -210,3 +210,8 @@ html, body {
   -webkit-transform: translateY(-15em) rotate(-292.5deg);
           transform: translateY(-15em) rotate(-292.5deg);
 }
+
+a {
+  font-size: 2em;
+  text-decoration: none;
+}
