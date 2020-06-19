@@ -55,7 +55,7 @@ body {
 .fa1 {
   width: 150px;
   height: 150px;
-  background: url("/Users/1/Desktop/ГИТХАБ/Tokyo-email/tokyo1.png");
+  background: url("/FRONTEND/Tokyo-email/tokyo1.png");
   background-size: 100% auto;
   clip-path: circle(50% at center center);
   box-shadow: 7px 7px 5px rgba(0, 0, 0, 0.4);
