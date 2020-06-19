@@ -5,9 +5,12 @@
 }
 
 html, body {
-  width: 100%;
   height: 100vh;
-  background: url('FRONTEND/img/bg.jpg') no-repeat;
+  overflow: hidden;
+}
+
+body {
+  background: url(/FRONTEND/img/bg.jpg) no-repeat;
   background-size: cover;
 }
 
@@ -30,7 +33,7 @@ html, body {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  
+  background: rgba(255, 255, 255, 0.8);
   box-shadow: 7px 7px 5px rgba(0, 0, 0, 0.4);
   opacity: 0;
   z-index: -10;
@@ -43,12 +46,35 @@ html, body {
           transform: translateX(0);
 }
 .menu .btn .fa {
-  display: inline;
   font-size: 4em;
-  white-space: pre-wrap;
+  overflow: hidden;
   -webkit-transition: color 0.3s;
   transition: color 0.3s;
 }
+
+.fa1 {
+  width: 150px;
+  height: 150px;
+  background: url("/Users/1/Desktop/ГИТХАБ/Tokyo-email/tokyo1.png");
+  background-size: 100% auto;
+  clip-path: circle(50% at center center);
+  box-shadow: 7px 7px 5px rgba(0, 0, 0, 0.4);
+  color: #fff;
+  text-decoration: none;
+  border-radius: 50%;
+  text-shadow: 2px 2px 20px rgba(0, 0, 0, 1);
+  font-size: 1.5em;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
 .menu .btn:hover .fa {
   color: rgba(255, 255, 255, 0.7);
 }
@@ -211,12 +237,4 @@ html, body {
 .menu.active .rotater:nth-child(8) .btn-icon {
   -webkit-transform: translateY(-15em) rotate(-292.5deg);
           transform: translateY(-15em) rotate(-292.5deg);
-}
-
-.fa1 {
-  background: url('/img/TOKYO.png'); 
-}
-
-a {
-  text-decoration: none;
 }
