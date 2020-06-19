@@ -10,7 +10,8 @@ html, body {
 }
 
 body {
-  background: url("https://github.com/SvetlanaZM/SvetlanaZM.github.io/blob/master/img/bg.jpg?raw=true") no-repeat;
+  background: background: radial-gradient(circle, rgba(255, 255, 255, 1), rgba(212, 243, 255, 0.6)), 
+              url("https://github.com/SvetlanaZM/SvetlanaZM.github.io/blob/master/img/bg.jpg?raw=true") no-repeat;
   background-size: cover;
 }
 
@@ -34,7 +35,7 @@ body {
   height: 100%;
   border-radius: 50%;
   background: rgba(255, 255, 255, 0.8);
-  box-shadow: 7px 7px 10px rgba(0, 0, 0, 1);
+  box-shadow: 10px 14px 10px 5px rgba(0, 0, 0, 0.5);
   opacity: 0;
   z-index: -10;
   cursor: pointer;
@@ -58,7 +59,6 @@ body {
   background: url("https://github.com/SvetlanaZM/SvetlanaZM.github.io/blob/master/FRONTEND/Tokyo-email/img/tokyo1.png?raw=true");
   background-size: 100% auto;
   clip-path: circle(50% at center center);
-  box-shadow: 7px 7px 5px rgba(0, 0, 0, 0.4);
   color: #fff;
   text-decoration: none;
   border-radius: 50%;
