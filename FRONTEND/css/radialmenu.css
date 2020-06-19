@@ -43,6 +43,7 @@ html, body {
           transform: translateX(0);
 }
 .menu .btn .fa {
+  display: inline;
   font-size: 4em;
   white-space: pre-wrap;
   -webkit-transition: color 0.3s;
