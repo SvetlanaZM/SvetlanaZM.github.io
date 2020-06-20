@@ -56,14 +56,13 @@ body {
 .fa1, .fa2 {
   width: 150px;
   height: 150px;
-  background: url("https://github.com/SvetlanaZM/SvetlanaZM.github.io/blob/master/FRONTEND/Tokyo-email/img/tokyo1.png?raw=true");
   background-size: 100% auto;
   clip-path: circle(50% at center center);
   color: #fff;
   text-decoration: none;
   border-radius: 50%;
   text-shadow: 2px 2px 20px rgba(0, 0, 0, 1);
-  font-size: 1.5em;
+  font-size: 1em;
   text-align: center;
   display: flex;
   align-items: center;
