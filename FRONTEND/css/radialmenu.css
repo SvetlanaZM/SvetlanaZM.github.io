@@ -53,7 +53,7 @@ body {
   transition: color 0.3s;
 }
 
-.fa1 {
+.fa1, .fa2 {
   width: 150px;
   height: 150px;
   background: url("https://github.com/SvetlanaZM/SvetlanaZM.github.io/blob/master/FRONTEND/Tokyo-email/img/tokyo1.png?raw=true");
@@ -68,6 +68,14 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.fa1 {
+  background: url("https://github.com/SvetlanaZM/SvetlanaZM.github.io/blob/master/FRONTEND/Tokyo-email/img/tokyo1.png?raw=true");
+}
+
+.fa2 {
+  background: url("https://github.com/SvetlanaZM/SvetlanaZM.github.io/blob/master/FRONTEND/LaGustosa/img/LA%20GUSTOSA1.png?raw=true");
 }
 
 a {
