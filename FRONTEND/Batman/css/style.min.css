@@ -10,7 +10,7 @@ html {
 }
 
 body {
-  background: url(https://github.com/SvetlanaZM/SvetlanaZM.github.io/blob/master/FRONTEND/Batman/img/main-bg.jpg?raw=true) top center no-repeat;
+  background: url("https://github.com/SvetlanaZM/SvetlanaZM.github.io/blob/master/FRONTEND/Batman/img/main-bg.jpg?raw=true") top center no-repeat;
   background-color: #0a090a;
   background-size: 100%
 }
@@ -195,7 +195,7 @@ body {
   min-width: 31px;
   min-height: 31px;
   border-radius: 50%;
-  background: url(https://raw.githubusercontent.com/SvetlanaZM/SvetlanaZM.github.io/0cba54dc477a94916db1bfcb0ad5b9633b8b90c6/FRONTEND/Batman/icons/play.svg) center center no-repeat;
+  background: url("https://raw.githubusercontent.com/SvetlanaZM/SvetlanaZM.github.io/0cba54dc477a94916db1bfcb0ad5b9633b8b90c6/FRONTEND/Batman/icons/play.svg") center center no-repeat;
   background-color: #ffffff;
   background-size: 100%;
   -webkit-transition: 0.3s all;
@@ -231,7 +231,7 @@ body {
   min-width: 31px;
   min-height: 31px;
   border-radius: 50%;
-  background: url(https://raw.githubusercontent.com/SvetlanaZM/SvetlanaZM.github.io/0cba54dc477a94916db1bfcb0ad5b9633b8b90c6/FRONTEND/Batman/icons/play.svg) center center no-repeat;
+  background: url("https://raw.githubusercontent.com/SvetlanaZM/SvetlanaZM.github.io/0cba54dc477a94916db1bfcb0ad5b9633b8b90c6/FRONTEND/Batman/icons/play.svg") center center no-repeat;
   background-color: #ffffff;
   background-size: 100%;
   -webkit-transition: 0.3s all;
