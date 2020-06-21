@@ -3,7 +3,7 @@
 }
 
 body {
-  background: url("/Users/1/Desktop/ГИТХАБ/QA/tabs/img/bg.jpg");
+  background: url("https://github.com/SvetlanaZM/SvetlanaZM.github.io/blob/master/img/bg.jpg?raw=true");
   color: #eee;
   font: 1em 'PT Sans', sans-serif;
 }
@@ -32,19 +32,19 @@ body {
 
 .tabbed > label:hover,
 .tabbed > input:checked + label {
-  background: #d14836; /*цвет ярлычка вкладки*/
+  background: #d14836;
   box-shadow: 7px 7px 5px rgba(0, 0, 0, 0.6);
 }
 
 .tabs {
   clear: both;
-  perspective: 100px; /*горизонталь, с которой падает вкладка*/
+  perspective: 100px;
 }
 
 .tabs > div {
   width: 700px;
   position: absolute;
-  border: 2px solid #d14836; /*цвет рамки вкладки*/
+  border: 2px solid #d14836;
   padding: 10px 30px 40px;
   line-height: 1.4em;
   opacity: 0;
@@ -52,7 +52,7 @@ body {
   transform-origin: top center;
   transition: opacity .3s, transform 1s;
   z-index: 0;
-  background: rgba(37, 56, 63, 0.9); /*цвет фона вкладок*/
+  background: rgba(37, 56, 63, 0.9);
   box-shadow: 7px 7px 5px rgba(0, 0, 0, 0.6);
 }
 
