@@ -24,7 +24,10 @@ body {
 .tabbed > label {
   display: block;
   float: left;
-  padding: 1.5em 0.5em 0.5em 0.5em;
+  padding: 2em 0.5em 0em 0.5em;
+  text-align: center;
+  line-height: 0.3em;
+  word-wrap: wrap;
   margin-right: 5px;
   cursor: pointer;
   transition: background-color .3s;
