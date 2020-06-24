@@ -24,34 +24,36 @@ body {
 .tabbed > label {
   display: block;
   float: left;
-  padding: 12px 20px;
+  padding: 1.5em 0.5em 0.5em 0.5em;
   margin-right: 5px;
   cursor: pointer;
   transition: background-color .3s;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
 }
 
 .tabbed > label:hover, .tabbed > input:checked + label {
-  background: #d14836;
+  background: #d14836; /*цвет ярлычка вкладки*/
   box-shadow: 7px 7px 5px rgba(0, 0, 0, 0.6);
 }
 
 .tabs {
   clear: both;
-  perspective: 100px;
+  perspective: 100px; /*горизонталь, с которой падает вкладка*/
 }
 
 .tabs > div {
   width: 900px;
   height: 500px;
   position: absolute;
-  border: 2px solid #d14836;
+  border: 2px solid #d14836; /*цвет рамки вкладки*/
   line-height: 1.4em;
   opacity: 0;
   transform: rotateX(-20deg);
   transform-origin: top center;
   transition: opacity .3s, transform 1s;
   z-index: 0;
-  background: rgba(37, 56, 63, 0.9);
+  background: rgba(37, 56, 63, 0.9); /*цвет фона вкладок*/
   box-shadow: 7px 7px 5px rgba(0, 0, 0, 0.6);
 }
 
