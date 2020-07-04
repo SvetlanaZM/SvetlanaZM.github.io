@@ -46,6 +46,7 @@ body {
   -webkit-transform: translateX(0);
           transform: translateX(0);
 }
+
 .menu .btn .fa {
   font-size: 4em;
   overflow: hidden;
@@ -53,7 +54,7 @@ body {
   transition: color 0.3s;
 }
 
-.fa1, .fa2, .fa3, .fa4 {
+.fa1, .fa2, .fa3, .fa4, fa5 {
   width: 150px;
   height: 150px;
   background-size: 100% auto;
@@ -85,6 +86,10 @@ body {
   background: url("https://github.com/SvetlanaZM/SvetlanaZM.github.io/blob/master/FRONTEND/Batman/img/batman1.png?raw=true");
 }
 
+.fa5 {
+  background: url("https://github.com/SvetlanaZM/SvetlanaZM.github.io/blob/master/FRONTEND/Pizzeria-email/img/Pizzeria1.png?raw=true");
+}
+
 a {
   text-decoration: none;
   color: #fff;
@@ -93,6 +98,7 @@ a {
 .menu .btn:hover .fa {
   color: rgba(255, 255, 255, 0.7);
 }
+
 .menu .btn.trigger {
   width: 180%;
   height: 180%;
@@ -104,6 +110,7 @@ a {
   transition: transform 0.3s;
   transition: transform 0.3s, -webkit-transform 0.3s;
 }
+
 .menu .btn.trigger:hover {
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
