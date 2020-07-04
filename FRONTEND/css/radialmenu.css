@@ -54,7 +54,7 @@ body {
   transition: color 0.3s;
 }
 
-.fa1, .fa2, .fa3, .fa4, fa5 {
+.fa1, .fa2, .fa3, .fa4, .fa5 {
   width: 150px;
   height: 150px;
   background-size: 100% auto;
